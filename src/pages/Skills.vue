@@ -2,13 +2,11 @@
   <div class="info-container">
     <h2 class="accent right">What I know</h2>
     <p>
-      I currently do Front-end web development as part of my job, but in my free
-      time I love doing Game development as a way to pursue my career as a game
-      developer. Here's my currently skills of each side of development.
+      Here are my current knowledges of Web development and Game development
     </p>
   </div>
 
-  <div class="grid">
+  <div class="web-container">
     <div class="card">
       <h3>Web Development</h3>
       <div class="web-div">
@@ -19,9 +17,12 @@
         <img class="skill-img" src="../assets/vue.svg" alt="vue" />
       </div>
     </div>
+  </div>
+
+  <div class="web-container">
     <div class="card">
       <h3>Game Development</h3>
-      <div class="web-div">
+      <div class="game-div">
         <img class="skill-img" src="../assets/csharp.svg" alt="csharp" />
         <img class="skill-img" src="../assets/godot.svg" alt="godot" />
         <img class="skill-img" src="../assets/monogame.png" alt="monogame" />
@@ -36,6 +37,16 @@
 }
 
 .web-div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.game-div {
+  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -44,20 +55,14 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-  .grid {
-    margin: 0 15%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
+  .web-container {
+    margin: 10% 15%;
   }
 }
 
 @media (min-width: 769px) {
-  .grid {
-    margin: 0 20%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  .web-container {
+    margin: 3% 20%;
   }
 }
 </style>

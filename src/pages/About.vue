@@ -2,9 +2,10 @@
   <div class="info-container">
     <h2 class="accent left">About</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam
-      voluptates ex veniam quae. Dignissimos, dicta. Ad esse alias aliquid illum
-      minus, ipsum nostrum error facere odit a quis animi.
+      Hey! I'm Juan Bouza or AndresDev, depends on my name or username. I'm
+      currentty working as a Frontend web developer, but with a passion of
+      building games, so I'm more focused on building Game project to pursue my
+      career as a game developer.
     </p>
   </div>
 </template>
