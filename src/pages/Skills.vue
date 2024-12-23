@@ -10,11 +10,15 @@
     <div class="card">
       <h3>Web Development</h3>
       <div class="web-div">
-        <img class="skill-img" src="../assets/html.svg" alt="html" />
-        <img class="skill-img" src="../assets/js.svg" alt="js" />
-        <img class="skill-img" src="../assets/bootstrap.svg" alt="bootstrap" />
-        <img class="skill-img" src="../assets/react.svg" alt="react" />
-        <img class="skill-img" src="../assets/vue.svg" alt="vue" />
+        <img class="skill-img" src="../assets/icons/html.svg" alt="html" />
+        <img class="skill-img" src="../assets/icons/js.svg" alt="js" />
+        <img
+          class="skill-img"
+          src="../assets/icons/bootstrap.svg"
+          alt="bootstrap"
+        />
+        <img class="skill-img" src="../assets/icons/react.svg" alt="react" />
+        <img class="skill-img" src="../assets/icons/vue.svg" alt="vue" />
       </div>
     </div>
   </div>
@@ -23,9 +27,13 @@
     <div class="card">
       <h3>Game Development</h3>
       <div class="game-div">
-        <img class="skill-img" src="../assets/csharp.svg" alt="csharp" />
-        <img class="skill-img" src="../assets/godot.svg" alt="godot" />
-        <img class="skill-img" src="../assets/monogame.png" alt="monogame" />
+        <img class="skill-img" src="../assets/icons/csharp.svg" alt="csharp" />
+        <img class="skill-img" src="../assets/icons/godot.svg" alt="godot" />
+        <img
+          class="skill-img"
+          src="../assets/icons/monogame.png"
+          alt="monogame"
+        />
       </div>
     </div>
   </div>

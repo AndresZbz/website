@@ -9,6 +9,7 @@ import Image from "../assets/avatar.webp";
     </div>
     <div class="text-container">
       <h1>Juan Bouza</h1>
+      <hr />
       <p
         v-motion
         :initial="{ opacity: 0, y: 100 }"
@@ -18,30 +19,6 @@ import Image from "../assets/avatar.webp";
       >
         <span class="accent">Front-end</span> Web Developer and Game Developer
       </p>
-      <button
-        class="btn-primary"
-        v-motion
-        :initial="{ opacity: 0, y: 100 }"
-        :enter="{ opacity: 1, y: 0, scale: 1 }"
-        :delay="200"
-        :duration="1200"
-        style="margin-bottom: 25px"
-      >
-        <a href="https://github.com/AndresZbz">Github</a>
-      </button>
-      <button
-        class="btn-secondary"
-        v-motion
-        :initial="{ opacity: 0, y: 100 }"
-        :enter="{ opacity: 1, y: 0, scale: 1 }"
-        :delay="200"
-        :duration="1200"
-      >
-        <a
-          href="https://www.linkedin.com/in/juan-andres-bouza-boscan-867a5821b/"
-          >Linkedin</a
-        >
-      </button>
     </div>
   </div>
 </template>
@@ -73,7 +50,7 @@ a {
   .container {
     justify-content: center;
     align-items: center;
-    margin: 10em 20%;
+    margin: 15em 20%;
     display: flex;
     gap: 20px;
   }

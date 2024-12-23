@@ -11,6 +11,12 @@
 </template>
 
 <style>
+.info-container {
+  background: #000;
+  padding: 10px 20px;
+  border: 2px solid white;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
   .info-container {
     margin: 10% 15%;
@@ -18,6 +24,9 @@
 }
 
 @media (min-width: 769px) {
+  h2 {
+    font-size: 40px;
+  }
   .info-container {
     margin: 10% 20%;
   }
