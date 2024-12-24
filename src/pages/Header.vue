@@ -33,7 +33,11 @@ a {
   .container {
     justify-content: center;
     align-items: center;
-    margin: 10em 25%;
+    margin: 10em 5%;
+  }
+
+  .container img {
+    margin-left: 20%;
   }
 
   h1 {
