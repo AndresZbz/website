@@ -8,7 +8,7 @@ import About from "../pages/About.vue";
     <div class="ben-container container my-4">
       <div class="row g-4">
         <!-- About Me -->
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-12">
           <div
             class="ben-item ben-tall text-decoration-none"
             data-bs-toggle="modal"
@@ -18,22 +18,22 @@ import About from "../pages/About.vue";
           </div>
         </div>
 
-        <div class="col-md-9">
-          <div class="ben-item bg-secondary">fdfd</div>
+        <div class="col-lg-9 col-md-12">
+          <div class="ben-item bg-secondary">projects</div>
 
           <!-- Skills and Experience -->
           <div class="row g-4 mt-1">
-            <div class="col-6">
-              <div class="ben-item bg-success">Small Item 1</div>
+            <div class="col-md-6 col-s-12">
+              <div class="ben-item bg-success">skills web</div>
             </div>
-            <div class="col-6">
-              <div class="ben-item bg-success">Small Item 2</div>
+            <div class="col-md-6 col-s-12">
+              <div class="ben-item bg-success">skills gamedev</div>
             </div>
           </div>
         </div>
 
         <div class="col-12">
-          <div class="ben-item bg-success">Small Item 1</div>
+          <div class="ben-item bg-success">nose</div>
         </div>
       </div>
     </div>

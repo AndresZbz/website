@@ -8,14 +8,14 @@
     role="dialog"
   >
     <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content mod-item">
+      <div class="mod-item modal-content">
         <div class="modal-body m-3">
           <div class="row gap-4">
             <div class="col-md-3 col-lg-3 col-s-12">
               <img
                 src="../assets/avatar.webp"
                 width="128px"
-                class="rounded-circle"
+                class="rounded-circle text-center justify-content-center align-items-center"
               />
             </div>
             <div class="col-md-8 col-lg-8 col-s-12">
@@ -41,12 +41,12 @@
   </div>
 </template>
 <style>
-.mod-item {
+.modal .mod-item {
   background: #1e1e1e;
   color: white;
 }
 
-.modal-footer {
+.modal .modal-footer {
   border-top: none;
 }
 </style>
