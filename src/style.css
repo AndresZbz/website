@@ -1,72 +1,9 @@
-:root {
-  --text: #e0e1f7;
-  --background: #000000;
-  --primary: #9294e3;
-  --secondary: #7a2064;
-  --secondary-lt: #87266f;
-  --secondary-dk: #4e143f;
-  --accent: #cc3b64;
-  --accent-lt: #e0537b;
-}
-
-@media (min-width: 320px) and (max-width: 1439px) {
-  body {
-    background: url("assets/bg/mobile.webp");
-    background-repeat: repeat-y; /* Prevents the image from repeating */
-    background-size: cover; /* Ensures the image covers the entire area */
-  }
-}
-
-@media (min-width: 1440px) {
-  body {
-    background: url("assets/bg/desktop.webp");
-    background-repeat: repeat-y; /* Prevents the image from repeating */
-    background-size: contain; /* Ensures the image covers the entire area */
-  }
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  color: var(--text);
-  font-family: "Inter Variable", sans-serif;
-  margin: 0;
-}
-
-.accent {
-  color: var(--accent);
-}
-
-.btn-primary {
-  font-family: "Inter Variable", sans-serif;
-  margin: 0px 10px;
-  background: var(--secondary);
-  color: var(--text);
-  border: none;
-  padding: 10px 30px;
-  font-size: 15px;
-  border-radius: 5px;
-}
-
-.btn-primary:hover {
-  background: var(--secondary-lt);
-}
-
-.btn-secondary {
-  font-family: "Inter Variable", sans-serif;
-  background: var(--accent);
-  border: none;
-  padding: 10px 30px;
-  font-size: 15px;
-  border-radius: 5px;
-}
-
-.btn-secondary:hover {
-  background: var(--accent-lt);
-}
-
-.card {
-  background: var(--background);
-  border: 2px solid white;
-  color: var(--text);
-  padding: 10px 20px;
-  border-radius: 5px;
+  height: 100%;
+  background: #000000;
 }

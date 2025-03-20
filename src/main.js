@@ -1,8 +1,10 @@
 import { createApp } from "vue";
-import "./style.css";
 import App from "./App.vue";
 import { MotionPlugin } from "@vueuse/motion";
+import { BootstrapVue3 } from "bootstrap-vue-3";
 
+import "bootstrap/dist/css/bootstrap.css";
+import "./style.css";
 import "@fontsource-variable/inter";
 
-createApp(App).use(MotionPlugin).mount("#app");
+createApp(App).use(MotionPlugin).use(BootstrapVue3).mount("#app");
