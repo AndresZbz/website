@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Starting using Vim",
+      "slug": "using_vim",
+      "date": "2026-02-23",
+      "category": "Development",
+      "contentFile": "/posts/using_vim.md"
+    }
+  ]
+}
