@@ -35,7 +35,7 @@ const stacks = ref([
 }
 
 .stack_card {
-  background: #f4faff;
+  background: var(--stack-bg);
   border-radius: 22px;
   padding: 14px 20px;
   text-align: center;

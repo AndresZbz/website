@@ -62,7 +62,6 @@ header {
 }
 
 .link {
-  background: rgba(175, 224, 255, 0.5);
   text-decoration: none;
   color: #009dff;
   font-weight: bold;
@@ -76,7 +75,6 @@ header {
 
 .link:hover {
   color: #009dff;
-  background-color: rgba(218, 241, 255, 0.5);
   transform: translateY(-2px);
 }
 </style>

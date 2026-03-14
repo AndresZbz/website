@@ -1,9 +1,32 @@
 :root {
   --bg-color: #f4faff;
+  --h1-color: #535353;
+  --h2-color: #797979;
+  --h3-color: #797979;
+  --p-color: #313131;
+  --stack-bg: #f4faff;
 
   --header-size: 64px;
   --subheader-size: 32px;
   --subtitles-size: 20px;
+}
+
+.light {
+  --bg-color: #f4faff;
+  --h1-color: #535353;
+  --h2-color: #797979;
+  --h3-color: #797979;
+  --p-color: #313131;
+  --stack-bg: #f4faff;
+}
+
+.dark {
+  --bg-color: #201b24;
+  --h1-color: #625e65;
+  --h2-color: #7a777d;
+  --h3-color: #939095;
+  --p-color: #ffffff;
+  --stack-bg: #353039;
 }
 
 * {
@@ -18,25 +41,25 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: var(--header-size);
-  color: #535353;
+  color: var(--h1-color);
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: var(--subheader-size);
-  color: #797979;
+  color: var(--h2-color);
   margin-bottom: 15px;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #797979;
+  color: var(--h3-color);
   margin-bottom: 15px;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   font-size: var(--subtitles-size);
-  color: #313131;
+  color: var(--p-color);
   line-height: 1.6;
 }
