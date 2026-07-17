@@ -41,7 +41,7 @@ const stacks = ref([
   text-align: center;
   box-shadow:
     0 6px 14px rgba(0, 0, 0, 0.12),
-    inset 0 2px 3px rgba(255, 255, 255, 0.9);
+    inset 0 2px 3px var(--stack-shadow);
 
   transition: all 0.15s ease;
 }
@@ -50,6 +50,6 @@ const stacks = ref([
   transform: translateY(-4px);
   box-shadow:
     0 10px 20px rgba(0, 0, 0, 0.16),
-    inset 0 2px 3px rgba(255, 255, 255, 0.9);
+    inset 0 2px 3px var(--stack-shadow);
 }
 </style>

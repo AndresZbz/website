@@ -18,6 +18,7 @@
   --h3-color: #797979;
   --p-color: #313131;
   --stack-bg: #f4faff;
+  --stack-shadow: #ffffffe6;
 }
 
 .dark {
@@ -27,6 +28,7 @@
   --h3-color: #939095;
   --p-color: #ffffff;
   --stack-bg: #353039;
+  --stack-shadow: #262329;
 }
 
 * {
