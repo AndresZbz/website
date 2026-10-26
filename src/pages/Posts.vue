@@ -37,7 +37,9 @@ async function fetch_posts() {
     }
     const data = await res.json();
 
-    posts.value = data.posts;
+    posts.value = data.posts.sort(
+      (a, b) => new Date(b.date) - new Date(a.date),
+    );
 
     console.log(posts.value);
   } catch (e) {

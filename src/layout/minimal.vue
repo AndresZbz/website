@@ -106,19 +106,25 @@ onMounted(() => {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*grid but actually using flex*/
 .grid {
-  display: grid;
-  grid-template-columns: 280px minmax(0, 1fr);
-  gap: 2.5rem;
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  box-sizing: border-box;
 }
 
 .content {
   max-width: 1100px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .grid {
+    display: grid;
     grid-template-columns: 1fr;
   }
 

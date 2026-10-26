@@ -5,11 +5,10 @@ import Card from "../components/Card.vue";
 <template>
   <Card title="Who am I?">
     <p>
-      Hey there. I'm Juan Andrés, a junior Web developer currently finishing up
-      my Computer Science career with 2+ years of experience working with
-      Frontend Web tecnologies and 1+ year working with Backend technologies. As
-      today I work on web development but I also like making games and tools for
-      them.
+      Hey there. I'm Juan Andrés, a Web developer with 2+ years of experience
+      working with Frontend Web tecnologies and 1+ year working with Backend
+      technologies. As today I work on web development but I also like making
+      games and tools for them.
     </p>
     <br />
     <p>

@@ -12,23 +12,21 @@
 }
 
 .light {
-  --bg-color: #f4faff;
-  --h1-color: #535353;
-  --h2-color: #797979;
-  --h3-color: #797979;
-  --p-color: #313131;
-  --stack-bg: #f4faff;
-  --stack-shadow: #ffffffe6;
+  --bg-color: #e8f1f8;
+  --h1-color: #3a4a5a;
+  --h2-color: #5b7389;
+  --h3-color: #5b7389;
+  --p-color: #2a3642;
+  --stack-bg: #fbfdff;
 }
 
 .dark {
-  --bg-color: #201b24;
-  --h1-color: #625e65;
-  --h2-color: #7a777d;
-  --h3-color: #939095;
-  --p-color: #ffffff;
-  --stack-bg: #353039;
-  --stack-shadow: #262329;
+  --bg-color: #141c26;
+  --h1-color: #e4eef7;
+  --h2-color: #a9bfd2;
+  --h3-color: #a9bfd2;
+  --p-color: #cfdce8;
+  --stack-bg: #1e2a38;
 }
 
 * {
