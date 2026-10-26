@@ -7,6 +7,15 @@
       "date": "2026-02-23",
       "category": "Development",
       "contentFile": "/posts/using_vim.md"
+    },
+
+    {
+      "id": 2,
+      "title": "Graduated from College. Now what?",
+      "slug": "graduated",
+      "date": "2026-10-25",
+      "category": "life",
+      "contentFile": "/posts/graduated.md"
     }
   ]
 }
